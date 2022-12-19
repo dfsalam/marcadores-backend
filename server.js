@@ -6,10 +6,10 @@ const cors=require('cors')
 
 const app=express()
 app.use(cors())
-app.set('port',80);
+app.set('port',8080);
 
 const dbOptions={
-    host:'localhost',
+    host:'150.136.105.14',
     port:'3306',
     user:'root',
     password:'admin',
