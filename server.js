@@ -9,7 +9,7 @@ app.use(cors())
 app.set('port',8080);
 
 const dbOptions={
-    host:'150.136.105.14',
+    host:'localhost',
     port:'3306',
     user:'root',
     password:'admin',
